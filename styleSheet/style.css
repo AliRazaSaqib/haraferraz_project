@@ -227,8 +227,8 @@ body code start from here */
   height: 550px;
   margin-top: 70px;
   position: absolute;
-  shape-outside: circle(50% at 30%);
-  clip-path: circle(46% at 0%);
+  /* shape-outside: circle(50% at 30%);
+  clip-path: circle(46% at 0%); */
   -webkit-clip-path: (46% at 0%);
   background: #215487;
 }
@@ -389,11 +389,11 @@ body code start from here */
 @media (max-width: 600px) {
   .sd-body-portion .sd-EndProduct {
     left: -170px;
-    top: 304px;
+    top: 306px;
   }
   .sd-body-portion .sd-EndProduct-desc {
     left: -170px;
-    top: 374px;
+    top: 376px;
   }
 
   .sd-body-portion .sd-EndProduct2 {
