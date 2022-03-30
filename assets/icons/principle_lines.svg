@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="1194.001" viewBox="0 0 180 1194.001">
+  <g id="principle_lines" data-name="principle lines" transform="translate(-550 -646.999)">
+    <g id="bottom_branch" data-name="bottom branch">
+      <path id="bottom_2nd_line" data-name="bottom 2nd line" d="M556,1468l74,.067a10,10,0,0,1,10,10V1841" fill="none" stroke="#3fc1ee" stroke-linejoin="round" stroke-width="3"/>
+      <path id="bottom_1st_line" data-name="bottom 1st line" d="M640,1373v79.933a10,10,0,0,1-10,10L556,1463" fill="none" stroke="#3fc1ee" stroke-linejoin="round" stroke-width="3"/>
+      <circle id="bottom_ellipse" data-name="bottom ellipse" cx="7.5" cy="7.5" r="7.5" transform="translate(550 1458)" fill="#3fc1ee"/>
+    </g>
+    <g id="mid_branch" data-name="mid branch">
+      <path id="middle_2nd_line" data-name="middle 2nd line" d="M724,1196l-74,.067a10,10,0,0,0-10,10V1406" fill="none" stroke="#3fc1ee" stroke-linejoin="round" stroke-width="3"/>
+      <path id="middle_1st_line" data-name="middle 1st line" d="M724,1191l-74-.067a10,10,0,0,1-10-10V1101" fill="none" stroke="#3fc1ee" stroke-linejoin="round" stroke-width="3"/>
+      <circle id="middle_ellipse" data-name="middle ellipse" cx="7.5" cy="7.5" r="7.5" transform="translate(715 1186)" fill="#3fc1ee"/>
+    </g>
+    <g id="top_branch" data-name="top branch">
+      <path id="top_2nd_line" data-name="top 2nd line" d="M556,941l74,.068a10,10,0,0,1,10,10V1123" fill="none" stroke="#3fc1ee" stroke-linejoin="round" stroke-width="3"/>
+      <path id="top_1st_line" data-name="top 1st line" d="M640,831v94.932a10,10,0,0,1-10,10L556,936" fill="none" stroke="#3fc1ee" stroke-linejoin="round" stroke-width="3"/>
+      <circle id="top_ellipse" data-name="top ellipse" cx="7.5" cy="7.5" r="7.5" transform="translate(550 931)" fill="#3fc1ee"/>
+    </g>
+    <path id="pre-branch" d="M700,648l-60,67v54" fill="none" stroke="#3fc1ee" stroke-linejoin="round" stroke-width="3" opacity="0.851"/>
+  </g>
+</svg>

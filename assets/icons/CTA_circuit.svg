@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="65" viewBox="0 0 12 65">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ad5699"/>
+      <stop offset="0.348" stop-color="#89498a"/>
+      <stop offset="0.43" stop-color="#814686"/>
+      <stop offset="1" stop-color="#543572"/>
+    </linearGradient>
+  </defs>
+  <g id="CTA_circuit" data-name="CTA circuit" transform="translate(-634 -1815)">
+    <line id="Shape_2" data-name="Shape 2" y2="55" transform="translate(640 1815)" fill="none" stroke="#707070" stroke-linejoin="round" stroke-width="4"/>
+    <circle id="pillar_left_dot_hollow" data-name="pillar left  dot hollow" cx="6" cy="6" r="6" transform="translate(634 1868)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

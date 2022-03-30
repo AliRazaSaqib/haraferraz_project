@@ -1,0 +1,509 @@
+/** @format */
+
+@font-face {
+  font-family: Fieldwork;
+  src: url(../styleSheet/Fieldwork.ttf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.sd-content {
+  padding: 0 48px;
+}
+
+/* 
+body code start from here */
+
+.handle-container-size {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.sd-parent-container {
+  background: linear-gradient(to right, #0b6291, #543572);
+}
+
+.sd-subparent-container {
+  background-image: url(../assets/icons/circuit_backround.svg);
+  background-repeat: no-repeat;
+
+  height: 100%;
+}
+
+.sd-subparent-container .sd-banner {
+  height: 652px;
+  background-color: white;
+}
+
+.sd-subparent-container .sd-banner .banner-img {
+  position: absolute;
+  top: 140px;
+  height: 416px;
+  width: 274px;
+}
+
+.sd-parent-container .sd-banner .sd-logo-btns {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.sd-parent-container .sd-banner .sd-hold-data {
+  text-align: -webkit-right;
+}
+
+.sd-parent-container .sd-banner .sd-logo-btns img {
+  padding-top: 20px;
+}
+
+.sd-parent-container .sd-banner .sd-login-contact-btn a {
+  font-family: Fieldwork;
+  font-size: 32px;
+  line-height: 38px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sd-parent-container .sd-banner .sd-login-contact-btn a:first-child {
+  color: #0b6190;
+}
+
+.sd-parent-container .sd-banner .sd-login-contact-btn a:not(:first-child) {
+  color: #543572;
+  margin-left: 42px;
+}
+
+.sd-parent-container .sd-banner .sd-login-contact-btn a:first-child:hover {
+  border-bottom: 1px solid #0b6190;
+}
+
+.sd-parent-container
+  .sd-banner
+  .sd-login-contact-btn
+  a:not(:first-child):hover {
+  border-bottom: 1px solid #543572;
+}
+
+.sd-parent-container .sd-banner .sd-product-data {
+  text-align: center;
+  font-family: Fieldwork;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 48px;
+  color: #0b6190;
+  padding-top: 24px;
+}
+
+.sd-parent-container .sd-banner .sd-product-data span {
+  color: #543572;
+}
+
+.sd-parent-container .sd-banner .sd-track-lines {
+  padding-top: 24px;
+  padding-left: 196px;
+}
+
+.sd-parent-container .sd-banner .sd-track-lines .sd-revolution {
+  max-width: 280px;
+  width: 100%;
+  background: linear-gradient(to right, #0b6291, #543572);
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 24px;
+  color: white;
+  font-family: Fieldwork;
+  padding: 12px;
+  border-radius: 8px;
+  position: absolute;
+  margin-top: -324px;
+  margin-left: 50px;
+}
+
+.sd-parent-container .sd-banner .sd-track-lines .sd-leverage {
+  margin-top: -214px;
+  margin-left: 50px;
+  margin-left: 580px;
+}
+
+.sd-body-portion {
+  text-align: center;
+  position: relative;
+  /* margin-top: -50px; */
+}
+
+.sd-body-portion h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 18px;
+  color: white;
+  font-family: Fieldwork;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sd-body-portion .sd-EndProduct {
+  background-color: white;
+  color: #543572;
+  max-width: 200px;
+  width: 100%;
+  text-align: end;
+  padding: 12px;
+  border-radius: 8px;
+  position: absolute;
+  top: 260px;
+  left: -440px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  font-family: Fieldwork;
+}
+
+.sd-body-portion .sd-EndProduct1 {
+  left: 0;
+  right: -440px;
+  top: 514px;
+  text-align: start;
+}
+
+.sd-body-portion .sd-EndProduct2 {
+  left: -440px;
+  right: 0;
+  top: 790px;
+  text-align: start;
+}
+
+.sd-body-portion .sd-EndProduct-desc {
+  background-color: unset !important;
+  position: absolute;
+  top: 345px;
+  left: -440px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 220px;
+  color: white;
+  text-align: end;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: Fieldwork;
+}
+
+.sd-body-portion .sd-EndProduct-desc1 {
+  right: -440px;
+  top: 600px;
+  left: 0;
+  text-align: start;
+}
+
+.sd-body-portion .sd-EndProduct-desc2 {
+  left: -440px;
+  right: 0;
+  top: 874px;
+  text-align: start;
+}
+
+.cont {
+  float: left;
+  width: 330px;
+  height: 550px;
+  margin-top: 70px;
+  position: absolute;
+  shape-outside: circle(50% at 30%);
+  clip-path: circle(46% at 0%);
+  background: #215487;
+}
+
+/* footer portion */
+.sd-footer {
+  background-image: url(../assets/icons/footer.svg);
+  position: relative;
+}
+
+.sd-footer .sd-footer-content {
+  text-align: center;
+  padding: 70px 12px;
+}
+
+.sd-footer .sd-footer-content h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #0b6190;
+  font-family: Fieldwork;
+}
+
+.sd-footer .sd-footer-content button {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 18px;
+  color: white;
+  font-family: Fieldwork;
+  padding: 14px;
+  background-color: #543572;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sd-footer .sd-footer-content button:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+
+.sd-footer img {
+  position: absolute;
+  left: 0px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: -24px;
+}
+
+/* breakpoints */
+
+@media (max-width: 1100px) {
+  .sd-parent-container .sd-banner .sd-track-lines .sd-revolution {
+    font-size: 12px;
+    max-width: 200px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-revolution-mob {
+    margin-left: 134px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sd-parent-container .sd-banner .sd-track-lines {
+    padding-left: 100px;
+  }
+  .sd-parent-container .sd-banner .sd-product-data {
+    font-size: 40px;
+  }
+
+  .sd-parent-container .sd-banner .sd-logo-btns img {
+    width: 180px;
+  }
+  .sd-parent-container .sd-banner .sd-login-contact-btn a:not(:first-child) {
+    margin-left: 12px;
+  }
+  .sd-parent-container .sd-banner .sd-login-contact-btn a {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 920px) {
+  .sd-parent-container .sd-banner .sd-track-lines {
+    padding-left: 10px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-revolution-mob {
+    margin-left: 200px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-leverage {
+    margin-left: 564px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-revolution {
+    font-size: 10px;
+    max-width: 150px;
+  }
+  .sd-parent-container .sd-banner .sd-product-data {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sd-body-portion .sd-EndProduct {
+    max-width: 130px;
+    left: -350px;
+  }
+  .sd-body-portion .sd-EndProduct,
+  .sd-body-portion .sd-EndProduct-desc {
+    font-size: 12px;
+  }
+  .sd-body-portion .sd-EndProduct-desc {
+    max-width: 140px;
+  }
+  .sd-body-portion .sd-EndProduct-desc {
+    left: -350px;
+  }
+  .sd-body-portion .sd-EndProduct1 {
+    right: -704px;
+  }
+  .sd-body-portion .sd-EndProduct-desc1 {
+    right: -700px;
+  }
+  .cont {
+    width: 174px;
+    height: 500px;
+    clip-path: circle(50% at -22%);
+  }
+  .sd-subparent-container .sd-banner .banner-img {
+    top: 110px;
+    width: 204px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines {
+    padding-left: 0;
+  }
+  img.sd-img {
+    width: 480px;
+    height: 430px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-revolution {
+    margin-top: -282px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-revolution-mob {
+    margin-left: 218px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-leverage {
+    margin-left: 414px;
+    margin-top: -174px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines {
+    padding-top: unset;
+  }
+  .sd-parent-container .sd-banner .sd-product-data {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sd-body-portion .sd-EndProduct {
+    left: -170px;
+    top: 304px;
+  }
+  .sd-body-portion .sd-EndProduct-desc {
+    left: -170px;
+    top: 374px;
+  }
+
+  .sd-body-portion .sd-EndProduct2 {
+    left: -170px;
+    top: 834px;
+  }
+  .sd-body-portion .sd-EndProduct-desc2 {
+    left: -170px;
+    top: 906px;
+  }
+  .sd-body-portion .sd-EndProduct1 {
+    right: -344px;
+    top: 562px;
+  }
+  .sd-body-portion .sd-EndProduct-desc1 {
+    right: -344px;
+    top: 630px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-revolution {
+    max-width: 130px;
+    line-height: 16px;
+  }
+  img.sd-img {
+    width: 400px;
+    height: 330px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-revolution {
+    margin-top: -222px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-revolution-mob {
+    margin-left: 174px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-leverage {
+    margin-left: 345px;
+    margin-top: -132px;
+  }
+  .sd-content {
+    padding: 0;
+  }
+  .sd-parent-container .sd-banner .sd-product-data {
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cont {
+    width: 100px;
+    height: 500px;
+    clip-path: circle(50% at -90%);
+  }
+  .sd-subparent-container .sd-banner .banner-img {
+    width: 124px;
+  }
+  img.sd-img {
+    width: 300px;
+    height: 350px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-leverage {
+    margin-left: 262px;
+    margin-top: -150px !important;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-revolution {
+    max-width: 100px;
+    line-height: 14px;
+    margin-top: -218px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-revolution-mob {
+    margin-left: 118px;
+  }
+}
+
+@media (max-width: 400px) {
+  img.sd-img {
+    width: 270px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-revolution-mob {
+    margin-left: 96px;
+    margin-top: -214px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-leverage {
+    margin-left: 234px;
+    margin-top: -154px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .sd-body-portion .sd-EndProduct {
+    max-width: 120px;
+  }
+  .sd-body-portion .sd-EndProduct-desc2 {
+    top: 920px;
+  }
+  .cont {
+    width: 80px;
+    clip-path: circle(50% at -132%);
+  }
+  .sd-subparent-container .sd-banner .banner-img {
+    width: 100px;
+  }
+  img.sd-img {
+    width: 220px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-revolution-mob {
+    margin-left: 52px;
+    margin-top: -206px;
+  }
+  .sd-parent-container .sd-banner .sd-track-lines .sd-leverage {
+    margin-left: 194px;
+    margin-top: -156px !important;
+  }
+}

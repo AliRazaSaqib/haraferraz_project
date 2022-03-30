@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="558.09" height="364" viewBox="0 0 558.09 364">
+  <g id="Group_4" data-name="Group 4" transform="translate(-272 -286)">
+    <path id="feature_circuit_line" data-name="feature circuit line" d="M272,288H731a10,10,0,0,1,10,10v18" fill="none" stroke="#543572" stroke-linejoin="round" stroke-width="4"/>
+    <g id="Group_2" data-name="Group 2">
+      <path id="left_2nd_line" data-name="left 2nd line" d="M824.067,504H750.889A9.945,9.945,0,0,0,741,514V650" fill="none" stroke="#707070" stroke-linejoin="round" stroke-width="4"/>
+      <path id="left_1st_line" data-name="left 1st line" d="M824.067,498H750.889A9.945,9.945,0,0,1,741,488V436" fill="none" stroke="#543572" stroke-linejoin="round" stroke-width="4"/>
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="7.5" cy="7.42" rx="7.5" ry="7.42" transform="translate(815.09 494.08)" fill="#543572"/>
+    </g>
+    <g id="Group_3" data-name="Group 3">
+      <path id="left_2nd_line-2" data-name="left 2nd line" d="M657,379h74a10,10,0,0,1,10,10v91" fill="none" stroke="#543572" stroke-linejoin="round" stroke-width="4"/>
+      <path id="left_1st_line-2" data-name="left 1st line" d="M657,373h74a10,10,0,0,0,10-10V295" fill="none" stroke="#543572" stroke-linejoin="round" stroke-width="4"/>
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="7.5" cy="7.5" r="7.5" transform="translate(651 369)" fill="#543572"/>
+    </g>
+  </g>
+</svg>
