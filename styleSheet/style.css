@@ -430,7 +430,7 @@ body code start from here */
     margin-top: -132px;
   }
   .sd-content {
-    padding: 0;
+    padding: 0 12px;
   }
   .sd-parent-container .sd-banner .sd-product-data {
     max-width: 300px;
