@@ -53,9 +53,9 @@ body code start from here */
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   padding-top: 34px;
   padding-bottom: 34px;
+  margin-left: auto;
 }
 
 .sd-parent-container .sd-banner .sd-hold-data {
@@ -229,6 +229,7 @@ body code start from here */
   position: absolute;
   shape-outside: circle(50% at 30%);
   clip-path: circle(46% at 0%);
+  -webkit-clip-path: (46% at 0%);
   background: #215487;
 }
 
